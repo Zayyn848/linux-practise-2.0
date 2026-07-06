@@ -603,7 +603,7 @@ Example output:
 ```
 Enter your name: Zayn
 Welcome Zayn
-```
+``88`
 
 ---
 
@@ -614,3 +614,10 @@ Welcome Zayn
 * It supports multiple programming styles, including procedural, object-oriented, and functional programming.
 * Common data types include **int, float, str, bool, list, tuple, dictionary, and set**.
 * Python is widely used in web development, AI, data science, automation, cybersecurity, and DevOps.
+
+# code<img width="736" height="981" alt="python programming" src="https://github.com/user-attachments/assets/1c289809-3dc0-44bb-aa1d-d48f30a64e95" />
+<img width="736" height="981" alt="python programming" src="https://github.com/user-attachments/assets/b6a00789-b151-40fe-8429-e20b51cf86c5" />
+
+<img width="736" height="981" alt="python programming" src="https://github.com/user-attachments/assets/bab05535-284c-48a3-9b42-01897a144b19" />
+
+  
