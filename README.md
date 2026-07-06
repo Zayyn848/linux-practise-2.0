@@ -1,44 +1,616 @@
-# linux-practise-2.0
-for practise
-Yeah, I'm outside in an AMG
-Right outside, T-T
-Too turn, baby girl, you know me, yeah
-Still with the dawgs that I grew beside
-All the niggas 'round me ride or they die
-Gotta watch the time 'cause it's flyin' right by
-I'm outside in an AMG, yeah
-Right outside, T-T
-Too turn, baby girl, you know me
-Who am I, all the niggas 'round me ride or they die
-Gotta watch the time 'cause it's flyin' right by
-Too turn, baby girl, you know me
-I just caught a shawty off a finsta
-Just threw on a hoodie, it's a Crenshaw
-Way that I been livin' unconventional
-I'm just tryna make it to the end, ya know
-Certain things just started gettin' tenser
-Think we need to have us an adventure
-I could be your man but maybe down the road
-Right now I would rather see my heart turn to chrome
-Rather see my heart turn crystal
-I can't even front like I don't miss ya
-Right now I'm just stuck inside the crib on my own
-Soon as I free up, I'm 'bout to pop up on your phone like
-I'm outside in an AMG
-Right outside, T-T
-Too turn, baby girl, you know me, yeah
-Who am I, all the niggas 'round me ride or they die
-Gotta watch the time 'cause it's flyin' right by
-Too turn, baby girl, you know me, yeah
-Heart's still on javelin, baby
-Too turnt, baby girl, you know me
-I was pullin' off 'fore they knew me
-Sometimes I wish there was two of me or three of me
-When it was you and me
-I felt like I love you too much to change you
-You believe in angles more than angels
-Feel like I've been going through too much to explain to you
-But I'm still the same way I was when I came to you
-Everything I have, what I had to exchange for you
-ok ok this is finally happening
+## linux-practise##
 
+# What is Python?
+
+**Python** is a **high-level, interpreted, general-purpose programming language** that is easy to read, write, and learn. It was created by Guido van Rossum and first released in **1991**.
+
+Python is widely used for:
+
+* 🌐 ***Web development***
+* 🤖 Artificial Intelligence (AI) & Machine Learning
+* 📊 Data Science and Data Analysis
+* 🔒 Cybersecurity
+* ☁️ Cloud Computing & DevOps
+* 🎮 Game development
+* ⚙️ Automation and scripting
+
+---
+
+# Definition
+
+> **Python is a high-level, interpreted, object-oriented, and general-purpose programming language used to create software, automate tasks, analyze data, and build AI applications.**
+
+---
+
+# Characteristics (Types/Features) of Python
+
+## 1. High-Level Language
+
+Python is easy for humans to read because its syntax is close to English.
+
+**Example:**
+
+```python
+print("Hello, World!")
+```
+
+---
+
+## 2. Interpreted Language
+
+Python executes code **line by line**, so you don't need to compile it first.
+
+**Example**
+
+```python
+print("Line 1")
+print("Line 2")
+```
+
+Output:
+
+```
+Line 1
+Line 2
+```
+
+---
+
+## 3. Object-Oriented Programming (OOP)
+
+Everything in Python can be treated as an object.
+
+**Example**
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s = Student("Ali")
+print(s.name)
+```
+
+Output
+
+```
+Ali
+```
+
+---
+
+## 4. General-Purpose Language
+
+Python can be used in many fields instead of only one.
+
+Examples:
+
+* Websites
+* Mobile apps (with frameworks)
+* AI
+* Games
+* Automation
+* Networking
+
+---
+
+## 5. Open Source
+
+Python is free to download and use.
+
+Official website:
+
+* [Python.org](https://www.python.org?utm_source=chatgpt.com)
+
+---
+
+## 6. Cross-Platform
+
+Python works on:
+
+# What is Python?
+
+**Python** is a **high-level, interpreted, general-purpose programming language** that is easy to read, write, and learn. It was created by Guido van Rossum and first released in **1991**.
+
+Python is widely used for:
+
+* 🌐 Web development
+* 🤖 Artificial Intelligence (AI) & Machine Learning
+* 📊 Data Science and Data Analysis
+* 🔒 Cybersecurity
+* ☁️ Cloud Computing & DevOps
+* 🎮 Game development
+* ⚙️ Automation and scripting
+
+---
+
+# Definition
+
+> **Python is a high-level, interpreted, object-oriented, and general-purpose programming language used to create software, automate tasks, analyze data, and build AI applications.**
+
+---
+
+# Characteristics (Types/Features) of Python
+
+## 1. High-Level Language
+
+Python is easy for humans to read because its syntax is close to English.
+
+**Example:**
+
+```python
+print("Hello, World!")
+```
+
+---
+
+## 2. Interpreted Language
+
+Python executes code **line by line**, so you don't need to compile it first.
+
+**Example**
+
+```python
+print("Line 1")
+print("Line 2")
+```
+
+Output:
+
+```
+Line 1
+Line 2
+```
+
+---
+
+## 3. Object-Oriented Programming (OOP)
+
+Everything in Python can be treated as an object.
+
+**Example**
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s = Student("Ali")
+print(s.name)
+```
+
+Output
+
+```
+Ali
+```
+
+---
+
+## 4. General-Purpose Language
+
+Python can be used in many fields instead of only one.
+
+Examples:
+
+* Websites
+* Mobile apps (with frameworks)
+* AI
+* Games
+* Automation
+* Networking
+
+---
+
+## 5. Open Source
+
+Python is free to download and use.
+
+Official website:
+
+* [Python.org](https://www.python.org?utm_source=chatgpt.com)
+
+---
+
+## 6. Cross-Platform
+
+Python works on:
+
+- [X] Windows
+- [ ] Linux
+- [ ] macOS
+
+The same code usually runs on all three.
+
+---
+
+## 7. Dynamically Typed
+
+You don't need to declare the data type.
+
+Example:
+
+```python
+x = 10
+name = "John"
+```
+
+Python automatically understands the data types.
+
+---
+
+# Basic Data Types in Python
+
+## 1. Integer (int)
+
+Whole numbers.
+
+```python
+age = 20
+print(age)
+```
+
+Output
+
+```
+20
+```
+
+---
+
+## 2. Float
+
+Decimal numbers.
+
+```python
+price = 99.99
+print(price)
+```
+
+Output
+
+```
+99.99
+```
+
+---
+
+## 3. String (str)
+
+Text enclosed in quotes.
+
+```python
+name = "Zayn"
+print(name)
+```
+
+Output
+
+```
+Zayn
+```
+
+---
+
+## 4. Boolean (bool)
+
+Represents True or False.
+
+```python
+is_student = True
+print(is_student)
+```
+
+Output
+
+```
+True
+```
+
+---
+
+## 5. List
+
+Stores multiple items and is mutable (changeable).
+
+```python
+fruits = ["Apple", "Banana", "Orange"]
+print(fruits)
+```
+
+Output
+
+```
+['Apple', 'Banana', 'Orange']
+```
+
+---
+
+## 6. Tuple
+
+Stores multiple items but cannot be changed.
+
+```python
+numbers = (1, 2, 3)
+print(numbers)
+```
+
+Output
+
+```
+(1, 2, 3)
+```
+
+---
+
+## 7. Dictionary
+
+Stores data as key-value pairs.
+
+```python
+student = {
+    "name": "Ali",
+    "age": 20
+}
+
+print(student["name"])
+```
+
+Output
+
+```
+Ali
+```
+
+---
+
+## 8. Set
+
+Stores unique values.
+
+```python
+numbers = {1, 2, 3, 3, 2}
+print(numbers)
+```
+
+Output
+
+```
+{1, 2, 3}
+```
+
+---
+
+# Why is Python Popular?
+
+* ✅ Easy to learn
+* ✅ Simple syntax
+* ✅ Free and open source
+* ✅ Huge community support
+* ✅ Thousands of libraries
+* ✅ Used by major companies like Google, Netflix, Instagram, and Spotify.
+
+---
+
+# Simple Python Program
+
+```python
+name = input("Enter your name: ")
+print("Welcome", name)
+```
+
+Example output:
+
+```
+Enter your name: Zayn
+Welcome Zayn
+```
+
+---
+
+# Summary
+
+* **Python** is a high-level, interpreted, general-purpose programming language.
+* It is beginner-friendly because of its simple, English-like syntax.
+* It supports multiple programming styles, including procedural, object-oriented, and functional programming.
+* Common data types include **int, float, str, bool, list, tuple, dictionary, and set**.
+* Python is widely used in web development, AI, data science, automation, cybersecurity, and DevOps.
+- [X]Windows
+- [ ]Linux
+- [ ] macOS
+
+The same code usually runs on all three.
+
+---
+
+## 7. Dynamically Typed
+
+You don't need to declare the data type.
+
+Example:
+
+```python
+x = 10
+name = "John"
+```
+
+Python automatically understands the data types.
+
+---
+
+# Basic Data Types in Python
+
+## 1. Integer (int)
+
+Whole numbers.
+
+```python
+age = 20
+print(age)
+```
+
+Output
+
+```
+20
+```
+
+---
+
+## 2. Float
+
+Decimal numbers.
+
+```python
+price = 99.99
+print(price)
+```
+
+Output
+
+```
+99.99
+```
+
+---
+
+## 3. String (str)
+
+Text enclosed in quotes.
+
+```python
+name = "Zayn"
+print(name)
+```
+
+Output
+
+```
+Zayn
+```
+
+---
+
+## 4. Boolean (bool)
+
+Represents True or False.
+
+```python
+is_student = True
+print(is_student)
+```
+
+Output
+
+```
+True
+```
+
+---
+
+## 5. List
+
+Stores multiple items and is mutable (changeable).
+
+```python
+fruits = ["Apple", "Banana", "Orange"]
+print(fruits)
+```
+
+Output
+
+```
+['Apple', 'Banana', 'Orange']
+```
+
+---
+
+## 6. Tuple
+
+Stores multiple items but cannot be changed.
+
+```python
+numbers = (1, 2, 3)
+print(numbers)
+```
+
+Output
+
+```
+(1, 2, 3)
+```
+
+---
+
+## 7. Dictionary
+
+Stores data as key-value pairs.
+
+```python
+student = {
+    "name": "Ali",
+    "age": 20
+}
+
+print(student["name"])
+```
+
+Output
+
+```
+Ali
+```
+
+---
+
+## 8. Set
+
+Stores unique values.
+
+```python
+numbers = {1, 2, 3, 3, 2}
+print(numbers)
+```
+
+Output
+
+```
+{1, 2, 3}
+```
+
+---
+
+# Why is Python Popular?
+
+* ✅ Easy to learn
+* ✅ Simple syntax
+* ✅ Free and open source
+* ✅ Huge community support
+* ✅ Thousands of libraries
+* ✅ Used by major companies like Google, Netflix, Instagram, and Spotify.
+
+---
+
+# Simple Python Program
+
+```python
+name = input("Enter your name: ")
+print("Welcome", name)
+```
+
+Example output:
+
+```
+Enter your name: Zayn
+Welcome Zayn
+```
+
+---
+
+# Summary
+
+* **Python** is a high-level, interpreted, general-purpose programming language.
+* It is beginner-friendly because of its simple, English-like syntax.
+* It supports multiple programming styles, including procedural, object-oriented, and functional programming.
+* Common data types include **int, float, str, bool, list, tuple, dictionary, and set**.
+* Python is widely used in web development, AI, data science, automation, cybersecurity, and DevOps.
